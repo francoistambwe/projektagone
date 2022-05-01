@@ -1,0 +1,158 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  }
+
+.wrapper {
+    position: relative;
+    border: 10px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .wrappertwo {
+    position: relative;
+    border: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    padding: 10px;
+  }  
+
+  .wrapperthree {
+    position: relative;
+    border: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+    padding: 10px;
+  }
+  
+.green {
+    background: green;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;    
+  }
+  
+  .red {
+    background: red;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 20px;
+  }
+  
+  .black {
+    background: #000000;
+    display: block;
+    position: absolute;
+    top: 0px;  
+      
+  }
+  
+  .orange {
+    background: #f01212;
+    display: block;
+    position: absolute;
+    top: 50px;
+  }
+  
+  .yellow {
+    background: yellow;
+    display: block;
+    position: absolute;
+    top: 100px;
+  }
+  
+  .blue {
+    background: blue;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .frenchyred {
+    background: #c00505;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .col {
+    height: 150px;
+    width: 120px;
+  }
+
+  .ligne {
+    height: 50px;
+    width: 95%;
+
+  }
+
+  .bande {
+    height: 200px;
+    width: 250px;
+  }
+  
+  .row {
+    background: white;
+    height: 150px;
+    padding-left: 10px;
+  }
+
+  .rowtwo {
+    background: white;
+    height: 160px;    
+  }
+
+  .rowthree {
+    background: white;
+    height: 200px;
+    padding-left: 10px;
+  }  
+
+/* Media Query / Breakpoints */
+@media (max-width: 450px) {   
+
+    .wrappertwo {
+        display: none;
+    }
+
+    .wrapperthree {
+        display: none;
+    }
+
+}
+
+/* Media Query / Breakpoints */
+@media (min-width: 451px) and (max-width: 1180px) {   
+
+    .wrapper {
+        display: none;
+    }
+
+    .wrapperthree {
+        display: none;
+    }
+
+}
+
+/* Media Query / Breakpoints */
+@media (min-width: 1181px) {   
+
+    .wrapper {
+        display: none;
+    }
+
+    .wrappertwo {
+        display: none;
+    }
+
+}
